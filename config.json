@@ -1,0 +1,29 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "/botkit",
+        "url": "https://chatbot.regeneron.com"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "apikey": "LbCFULQo+lKnbuWO5zSNXhkDxSxvocvp9",
+        "appId": "cs-9c4dc454-22bd-533"
+        },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
