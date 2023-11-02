@@ -1,11 +1,11 @@
-var botId = "st-38448176-33b1-51d6-8b16-0107967e297e";
+var botId = "";
 var botName = "DixiPOC";
 var sdk = require("./lib/sdk");
 var ActiveDirectory = require('activedirectory');
 var config = { url: 'ldaps://regn-ldaps.regeneron.com',
                baseDN: 'DC=regeneron,DC=regn,DC=com',
-               username: 'svc.koreadmin',
-               password: 'rL(u,7tTnGOM.M~j' }
+               username: '',
+               password: '' }
 
 
 function CheckAdUser (username, groupName){

@@ -1,16 +1,16 @@
-var botId = "st-38448176-33b1-51d6-8b16-0107967e297e";
+var botId = "";
 var botName = "DixiPOC";
 var sdk = require("./lib/sdk");
 var request = require('request-promise');
 var ActiveDirectory = require('activedirectory');
 var config = { url: 'ldaps://regn-ldap.regeneron.com',
                baseDN: 'DC=regeneron,DC=regn,DC=com',
-               username: "CN=svc.koreadmin,OU=System,OU=Regeneron Accounts,DC=regeneron,DC=regn,DC=com",
-               password: 'rL(u,7tTnGOM.M~j' }
+               username: "CN=,OU=System,OU=Regeneron Accounts,DC=regeneron,DC=regn,DC=com",
+               password: '' }
 
 function getUserDetails(ms_userId) {
     return new Promise(function (resolve, reject) {
-        var tenentId = "3e9aadf8-6a16-490f-8dcd-c68860caae0b";
+        var tenentId = "";
         var ms_client_id = "3e44298c-9373-47ce-b73c-8f461f27b42a";
         var ms_client_secret = "M-38Q~PX3IGBSDlT4o46ev9v4pBx5tUIBI53Rdsk";
         var ms_grant_type = "client_credentials";

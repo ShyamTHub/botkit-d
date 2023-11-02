@@ -1,4 +1,4 @@
-var botId = "st-38448176-33b1-51d6-8b16-0107967e297e";
+var botId = "";
 var botName = "DixiPOC";
 var sdk = require("./lib/sdk");
 

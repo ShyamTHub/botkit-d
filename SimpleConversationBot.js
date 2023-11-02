@@ -1,16 +1,16 @@
-var botId = "st-cca92b3c-5397-5752-963b-6d362d6f8ae5";
+var botId = "";
 var botName = "Dixi Chatbot";
 var sdk = require("./lib/sdk");
 var request = require('request-promise');
 var ActiveDirectory = require('activedirectory');
 var config = { url: 'ldaps://regn-ldap.regeneron.com',
                baseDN: 'DC=regeneron,DC=regn,DC=com',
-               username: "CN=svc.koreadmin,OU=System,OU=Regeneron Accounts,DC=regeneron,DC=regn,DC=com",
-               password: 'rL(u,7tTnGOM.M~j' }
+               username: "CN=,OU=System,OU=Regeneron Accounts,DC=regeneron,DC=regn,DC=com",
+               password: '' }
 
 function getUserDetails(ms_userId) {
     return new Promise(function (resolve, reject) {
-        var tenentId = "3e9aadf8-6a16-490f-8dcd-c68860caae0b";
+        var tenentId = "";
         var ms_client_id = "ce330ade-1227-456e-b23c-f6ea392bb07b";
         var ms_client_secret = "TTn8Q~6jgjy406KsOsK9ADaOTZQvm0_.O2yrAdy6";
         var ms_grant_type = "client_credentials";
